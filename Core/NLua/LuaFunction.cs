@@ -75,6 +75,11 @@ namespace NLua
 			return _Interpreter.CallFunction (this, args);
 		}
 
+		public object[] CallArgs (object[] args)
+		{
+			return _Interpreter.CallFunction (this, args);
+		}
+
 		/*
 		 * Pushes the function into the Lua stack
 		 */
